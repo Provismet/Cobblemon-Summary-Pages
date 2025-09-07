@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.provismet.cobblemon.summarypages.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+        "StatWidgetMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

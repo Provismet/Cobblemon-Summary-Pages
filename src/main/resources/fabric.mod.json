@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "cobblemon-summary-pages",
+	"version": "${version}",
+	"name": "Cobblemon Summary Pages",
+	"description": "Adds pagination to the feature render in the summary.",
+	"authors": [
+		"Provismet"
+	],
+	"contact": {
+		"homepage": "https://github.com/Provismet/Cobblemon-Summary-Pages",
+		"sources": "https://github.com/Provismet/Cobblemon-Summary-Pages",
+        "issues": "https://github.com/Provismet/Cobblemon-Summary-Pages/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/cobblemon-summary-pages/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+            "com.provismet.cobblemon.summarypages.CobblemonSummaryPagesClient"
+		]
+	},
+	"mixins": [
+        "cobblemon-summary-pages.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+        "cobblemon": ">=1.7.0"
+	}
+}
